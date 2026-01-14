@@ -1,0 +1,112 @@
+
+📁 mla-c01/
+Purpose: Exam-aligned ML engineering implementations.
+    domain1-data-prep/
+        Glue jobs
+        Data Wrangler flows
+        Feature Store creation scripts
+
+    domain2-model-dev/
+        Training scripts (XGBoost, PyTorch)
+        Hyperparameter tuning configs
+        Model Registry logic
+
+    domain3-deploy-orchestrate/
+        Endpoint creation
+        Batch transform jobs
+        CI/CD pipelines
+
+    domain4-monitor-security/
+        Model Monitor configs
+        Clarify bias reports
+        IAM/VPC security configs
+
+📁 genai-pro/
+Purpose: Production-grade Generative AI systems.
+    01-foundation-models/
+        Bedrock API calls
+        Model comparisons (Claude vs Titan)
+
+    02-prompt-engineering/
+        Prompt templates
+        Evaluation notebooks
+
+    03-rag-architecture/
+        Embedding pipelines
+        OpenSearch indexing
+        Retrieval logic
+
+    04-agents-tools/
+        Bedrock Agents
+        Lambda tools
+        Tool orchestration
+
+    05-guardrails-safety/
+        Content filters
+        Prompt injection defenses
+
+    06-ci-cd-observability/
+        Deployment pipelines
+        Token usage monitoring
+        Cost dashboards
+
+📁 infra/
+Purpose: Infrastructure as Code (exam gold).
+    CloudFormation/CDK templates
+    IAM policies (least privilege)
+    VPC, subnets, endpoints
+
+📁 pipelines/
+Purpose: End-to-end ML workflows.
+    Training pipelines
+    Inference pipelines
+    Automated retraining
+
+📁 exams/
+This is your secret weapon.
+Contains:
+    exam-traps.md → “AWS wants X, not Y”
+    decision-tables.md → If/Then logic
+    service-comparisons.md → Glue vs Lambda, Bedrock vs SageMaker, etc.
+
+
+##----------------------------------------------------------------##
+
+aws-ml-genai-certification/
+│
+├── mla-c01/                     # Everything for MLA-C01 exam
+│   ├── domain1-data-prep/        # Ingestion, Wrangler, Feature Store
+│   ├── domain2-model-dev/        # Training, tuning, registry
+│   ├── domain3-deploy/           # Endpoints, batch, CI/CD
+│   ├── domain4-monitor-sec/      # Drift, cost, IAM, VPC
+│
+├── genai-pro/                    # Everything for GenAI Professional
+│   ├── 01-foundation-models/     # Bedrock, FM comparisons
+│   ├── 02-prompt-engineering/    # Prompt templates + eval
+│   ├── 03-rag/                   # Embeddings + OpenSearch
+│   ├── 04-agents/                # Bedrock Agents + tools
+│   ├── 05-guardrails/            # Safety, injection defense
+│   ├── 06-ci-cd-observability/   # Pipelines, logging, cost
+│
+├── infra/                        # IaC (exam gold)
+│   ├── cloudformation/
+│   ├── cdk/
+│   ├── iam/
+│   └── networking/
+│
+├── pipelines/                    # End-to-end workflows
+│   ├── training/
+│   ├── inference/
+│   └── retraining/
+│
+├── monitoring/                   # Observability configs
+│   ├── cloudwatch/
+│   ├── model-monitor/
+│   └── drift/
+│
+├── exams/                        # Your highest ROI folder
+│   ├── exam-traps.md
+│   ├── decision-tables.md
+│   └── service-comparisons.md
+│
+└── README.md
